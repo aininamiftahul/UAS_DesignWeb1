@@ -21,6 +21,7 @@ function query($query)
 
 function submit($data)
 {
+    // isi
     global $conn;
     $Namakk = htmlspecialchars($data["Namakk"]);
     $Alamatdi = htmlspecialchars($data["Alamatdi"]);

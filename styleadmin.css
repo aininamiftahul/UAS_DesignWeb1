@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+body {
+    width: 100%;
+    background: whitesmoke;
+    position: relative;
+    display: flex;
+}
+
+#menu {
+    background: #6db5ca;
+    width: 130px;
+    height: 800px;
+}
+
+#menu .logo img {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    margin: 20px 25px;
+}
+
+#menu .items {
+    margin-top: 40px;
+}
+
+#menu .items li {
+    list-style: none;
+    padding: 15px 15px;
+    transition: 0.3s ease;
+}
+
+#menu .items li:hover{
+    background: #253047;
+    cursor: pointer;
+}
+
+#menu .items li:hover a{
+    color: #f3f4f6;
+}
+
+#menu .items li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300px;
+    transition: 0.3s ease;
+}
+
+#interface {
+    width: calc(100%);
+}
+
+#interface .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 30px;
+    border-bottom: 3px solid #6db5ca;
+}
+
+#interface .navigation .search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid #d7dbe6;
+    border-radius: 4px;
+}
+
+#interface .navigation .search input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+#table {
+    width: 100%;
+    margin: 10px 5px 10px 5px;
+    background: #fff;
+}
+
+#table .datakeluarga table {
+    border: 1px solid #d7dbe6;
+    border-radius: 4px;
+}
